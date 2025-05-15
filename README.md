@@ -28,7 +28,7 @@ xlab嵌入式作业（2025.5.2-2025.5.15）
    - **开心触发**：设定随机概率（如10%）触发开心表情，调整嘴角曲线方程：
    -      ```c  
       // 标准开口向下抛物线公式 y = -a*(x-h)² + k
-    int relativeX = x - mouthCenterX;
-    int y = mouthBottomY - a * relativeX * relativeX;
+       int relativeX = x - mouthCenterX;
+       int y = mouthBottomY - a * relativeX * relativeX;
      ```     
    - 关键参数：坐标计算、状态切换间隔、随机数生成逻辑。
